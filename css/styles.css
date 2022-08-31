@@ -1,0 +1,117 @@
+body{
+
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.sideBar1{
+    
+    background-image: url("bg-main-desktop.png");
+    background-size: 35vw;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.sideBar2{
+  
+  display: flex;
+  width: 50vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputs{
+    
+    display: flex;
+    width: 25vw;
+    row-gap: 1rem;
+    flex-direction: column;
+    margin-right: 10rem;
+    
+}
+
+input{
+ 
+ height: 2rem;
+ border-radius: 5px;
+ border:1px solid #D1D1D1; 
+}
+
+.cardImages{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    row-gap: 2rem;
+    margin-left: 150px;
+    
+}
+
+#img2{
+   
+   position: relative;
+   left: 90px;
+}   
+
+button{
+
+    height: 3rem;
+    background-color: #16213E;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    width: 25vw;
+    margin-top: 15px;
+}
+
+label{
+
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    top: 10px;
+}
+
+#card-logo{
+
+    position: relative;
+    top: 100px;
+    left: 25px;
+}
+
+.complete{
+
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3{
+
+    position: relative;
+    top: -10px;
+}
+
+
+#card1{
+
+    position: relative;
+    top: 300px;
+    left: 50px;
+    width: 300px;
+    border: 0px;
+    background: transparent;
+    color: white;
+    font-size: 1.2rem;
+}
